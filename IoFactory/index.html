@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Io Factory</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./icons/Vector.png">Culinary Kitchen</a>
+    </header>
+    <section class="home" id="home"style="padding-left: 0%;">
+        <div class="varieties-text">
+            <span >VARIETIES</span>
+            <span style="height: 2px;width: 80%;background-color: black;"></span>
+        </div>
+        <div class="row" >
+            <div class="col" style="display: flex;align-items: flex-start;justify-content: flex-start;">
+                <div class="cards" style="padding-left: 60px; color: white;float: left;">
+                    <div class="card" style="width: 30rem;border-top-left-radius: 20px;border-top-right-radius: 20px;border: none;">
+                        <img src="./pictures/Bitmap.jpg" class="hoverImg" alt="..." style="border-radius: 5px;transition: 2ss;">
+                        <div class="card-body" style="background-color: blueviolet;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;">
+                            <h4>Pizza</h4>
+                            <p class="card-text" style="opacity:initial;font-size: 13px;padding-bottom: 14px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <hr style="display: block;height: 3px;border: 0;border-top: 4px solid white;margin: 1em 0;padding: 0;"/>
+                            <div class="explore" style="display: flex;align-items: center;justify-content: space-between;">
+                                <button type="button" class="btn btn-outline-secondary" style="color: white;">Secondary<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg></button>
+                                <span class="star" style="float: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    Rated
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="vars">
+                <div class="cards"  style="padding: 15px;">
+                    <div class="card" vid="var" style="width: 18rem;border-radius: 20px;height: 300px;">
+                        <img src="./pictures/french.png" class="hoverImg" alt="..." style="height: 400px;border-radius: 20px;">
+                        <div class="card-body" style="background-color: rgba(204, 192, 192, 0.829);border: none;color: white;height: 50%;position: absolute;bottom: 0px;">
+                            <h5>Crispy French Fries</h5>
+                            <p class="card-text" style="opacity:initial;font-size: 11px;padding-bottom: 1px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <hr style="display: block;height: 3px;border: 0;border-top: 4px solid white;"/>
+                            <div class="explore" style="display: flex;align-items: center;justify-content: space-between;">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" style="color: white;">Secondary<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg></button>
+                                <span class="star" style="float: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    Rated
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards"  style="padding: 15px;">
+                    <div class="card" vid="var" style="width: 18rem;border-radius: 20px;height: 300px;">
+                        <img src="./pictures/paneer.png" class="hoverImg" alt="..." style="height: 400px;border-radius: 20px;">
+                        <div class="card-body" style="background-color: rgba(204, 192, 192, 0.829);border: none;color: white;height: 50%;position: absolute;bottom: 0px;">
+                            <h5>Paneer Tikka</h5>
+                            <p class="card-text" style="opacity:initial;font-size: 11px;padding-bottom: 1px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <hr style="display: block;height: 3px;border: 0;border-top: 4px solid white;"/>
+                            <div class="explore" style="display: flex;align-items: center;justify-content: space-between;">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" style="color: white;">Secondary<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg></button>
+                                <span class="star" style="float: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    Rated
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards"  style="padding: 15px;">
+                    <div class="card" vid="var" style="width: 18rem;border-radius: 20px;height: 300px;">
+                        <img src="./pictures/macrons.png" class="hoverImg" alt="..." style="height: 400px;border-radius: 20px;">
+                        <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829);border: none;color: white;height: 50%;position: absolute;bottom: 0px;">
+                            <h5>Macaroon</h5>
+                            <p class="card-text" style="opacity:initial;font-size: 11px;padding-bottom: 1px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <hr style="display: block;height: 3px;border: 0;border-top: 4px solid white;"/>
+                            <div class="explore" style="display: flex;align-items: center;justify-content: space-between;">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" style="color: white;">Secondary<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg></button>
+                                <span class="star" style="float: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    Rated
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards"  style="padding: 15px;">
+                    <div class="card" vid="var" style="width: 18rem;border-radius: 20px;height: 300px;">
+                        <img src="./pictures/donut.png" class="hoverImg" alt="..." style="height: 400px;border-radius: 20px;">
+                        <div class="card-body" style="background-color: rgba(204, 192, 192, 0.829);border: none;color: white;height: 50%;position: absolute;bottom: 0px;">
+                            <h5>Donuts</h5>
+                            <p class="card-text" style="opacity:initial;font-size: 11px;padding-bottom: 1px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <hr style="display: block;height: 3px;border: 0;border-top: 4px solid white;"/>
+                            <div class="explore" style="display: flex;align-items: center;justify-content: space-between;">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" style="color: white;">Secondary<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg></button>
+                                <span class="star" style="float: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                    </svg>
+                                    Rated
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cuisine">
+                <div class="row" style="padding: 20px;display: flex;align-items: center;justify-content: space-between;">
+                    <div class="col-sm-3">
+                      <div class="card" style="border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Indian Cuisine</h5>
+                          <p class="card-text" style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card" style="border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">American Cuisine</h5>
+                          <p class="card-text" style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card"style="border: none;">
+                          <div class="card-body">
+                            <h5 class="card-title">Chinese Cuisine</h5>
+                            <p class="card-text" style="font-size: 12px;">With supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <div class = "topchefs" style="display: grid;align-items: center;justify-content: center;padding-top: 10px;">
+                <span class="topChef-text">Top Chef</span>
+                <span style="height: 2px;width: 50px;background-color: black;margin: 10px;"></span>
+            </div>
+            <div class="chefs">
+                <div class="chefDisplay">
+                    <div class="card" style="width: 5rem;background-color: rgba(245, 245, 245, 0.0);border: none;color: white">
+                        <img id = "chefImg" src="./chefs/image 4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Eileen Johnson</h4>
+                            <p class="card-text">Executive Chef,USA</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;border-radius: 40px;">
+                        <img id = "chefImg" src="./chefs/image 3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Robert Downey Junior</h4>
+                            <p class="card-text">Lorem ipsum is a simply a dummy text for printing and type writing industry</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 5rem;background-color: rgba(245, 245, 245, 0.0);border: none;color: white">
+                        <img id = "chefImg"src="./chefs/image 5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Amanda Dority</h4>
+                            <p class="card-text">Sou Chef,India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="guide"  style="padding: 20px;">
+                <div class="foodGuide">
+                    <span>FOOD GUIDE</span>
+                    <span style="height: 2px;width: 50px;background-color: rgb(31, 31, 36);"></span>
+                </div>
+                <div class="row" style="display: flex;align-items: center;justify-content: space-between;">
+                    <div class="col-md-4" style="padding: 20px;">
+                        <div class="card" style="width: 18rem;border-radius: 40px;align-items: center;background-color: rgba(245, 245, 245, 0.0);border: none;color: white">
+                            <img id = "chefImg" src="./icons/Ellipse 2.png" class="card-img-top" alt="...">
+                            <img src="./icons/carot.png" style="position: absolute;top: 20px;left: 7s0px;width: 60px;">
+                            <div class="card-body" style="color: black;">
+                                <h4>Vegetables</h4>
+                                <p class="card-text" style="font-size: 12px;">Lorem ipsum is a simply a dummy text for printing and type writing industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="padding: 20px;align-items: flex-end;">
+                        <div class="card" style="width: 18rem;border-radius: 40px;align-items: center;background-color: rgba(245, 245, 245, 0.0);border: none;color: white;">
+                            <img id = "chefImg" src="./icons/Ellipse 3.png" class="card-img-top" alt="...">
+                            <img src="./icons/leaf.png"  style="position: absolute;top: 20px;left: 7s0px;width: 60px;">
+                            <div class="card-body" style="color: black;">
+                                <h4>Whole Grains</h4>
+                                <p class="card-text" style="font-size: 12px;">Lorem ipsum is a simply a dummy text for printing and type writing industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="display: flex;align-items: center;justify-content: space-between;padding-top: 80px;">
+                    <div class="col-md-4" style="padding: 20px;">
+                        <div class="card" style="width: 18rem;border-radius: 40px;align-items: center;background-color: rgba(245, 245, 245, 0.0);border: none;color: white">
+                            <img id = "chefImg" src="./icons/Ellipse 2.png" class="card-img-top" alt="...">
+                            <img src="./icons/apple.png" style="position: absolute;top: 20px;left: 7s0px;width: 60px;">
+                            <div class="card-body" style="color: black;">
+                                <h4>Fruits</h4>
+                                <p class="card-text" style="font-size: 12px;">Lorem ipsum is a simply a dummy text for printing and type writing industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="padding: 20px;align-items: flex-end;">
+                        <div class="card" style="width: 18rem;border-radius: 40px;align-items: center;background-color: rgba(245, 245, 245, 0.0);border: none;color: white;">
+                            <img id = "chefImg" src="./icons/Ellipse 3.png" class="card-img-top" alt="...">
+                            <div class="card-body" style="color: black;">
+                                <h4>Healthy Protein</h4>
+                                <p class="card-text" style="font-size: 12px;">Lorem ipsum is a simply a dummy text for printing and type writing industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+   
+    
+</body>
+</html>
